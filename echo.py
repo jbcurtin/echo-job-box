@@ -4,7 +4,7 @@ import time
 
 from datetime import datetime, timedelta
 
-start_time = datetime.utcnow() + timedelta(minutes=1)
+start_time = datetime.utcnow() + timedelta(seconds=20)
 while datetime.utcnow() < start_time:
     print('Echo:', datetime.utcnow())
     time.sleep(.1)
